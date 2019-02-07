@@ -1,0 +1,15 @@
+../../progs.dat
+
+../ssqc_sys.qc
+../shared_defs.qc
+../dpextensions.qc
+
+../phys_defs.qc
+../editor_defs.qc
+
+../phys_matrix.qc
+../phys_exec.qc
+../phys_loadsave.qc
+
+../editor_main.qc
+../editor_client.qc

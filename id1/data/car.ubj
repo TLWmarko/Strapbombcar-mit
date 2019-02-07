@@ -1,0 +1,104 @@
+object car 0
+mass 1000
+particle chassipart 1
+origin -3 0 16.5
+matrix 1 0 0 0 1 0 0 0 1
+size 10
+stepup 1
+mass 0.5
+stiction 50
+friction_ground 8 8 8
+friction_water 2 2 2
+bounce 1.025
+buoyancy -0.75
+gravity 1
+particle frontleft 1
+origin 15.25 16 -1.5
+matrix 1 0 0 0 1 0 0 0 1
+spring 0 0 -3.5
+size 9
+stepup 7
+mass 1
+stiction 10
+friction_ground 0.2 4 10
+friction_water 2 2 2
+bounce 1.025
+buoyancy -0.75
+gravity 1
+static frontleft 0
+origin 15.25 16 -1.5
+matrix 1 0 0 0 1 0 0 0 1
+model progs/gammacar/nutire.mdl
+particle backleft 1
+origin -17.25 16 -1.5
+matrix 1 0 0 0 1 0 0 0 1
+spring 0 0 -3.5
+size 9
+stepup 7
+mass 1
+stiction 10
+friction_ground 0.2 4 10
+friction_water 2 2 2
+bounce 1.025
+buoyancy -0.75
+gravity 1
+static backleft 0
+origin -17.25 16 -1.5
+matrix 1 0 0 0 1 0 0 0 1
+model progs/gammacar/nutire.mdl
+particle frontright 1
+origin 15.25 -16 -1.5
+matrix 1 0 0 0 1 0 0 0 1
+spring 0 0 -3.5
+size 9
+stepup 7
+mass 1
+stiction 10
+friction_ground 0.2 4 10
+friction_water 2 2 2
+bounce 1.025
+buoyancy -0.75
+gravity 1
+static frontright 0
+origin 15.25 -16 -1.5
+matrix 1 0 0 0 1 0 0 0 1
+model progs/gammacar/nutire.mdl
+particle backright 1
+origin -17.25 -16 -1.5
+matrix 1 0 0 0 1 0 0 0 1
+spring 0 0 -3.5
+size 9
+stepup 7
+mass 1
+stiction 10
+friction_ground 0.2 4 10
+friction_water 2 2 2
+bounce 1.025
+buoyancy -0.75
+gravity 1
+static backright 0
+origin -17.25 -16 -1.5
+matrix 1 0 0 0 1 0 0 0 1
+model progs/gammacar/nutire.mdl
+static chassis 0
+matrix 1 0 0 0 1 0 0 0 1
+model progs/gammacar/gammachassi.mdl
+particle frontbomb 1
+origin 28 0 6.5
+matrix 1 0 0 0 1 0 0 0 1
+size 3
+mass 0.1
+stiction 0
+friction_ground 1 1 1
+friction_water 2 2 2
+bounce 1.025
+buoyancy -0.75
+gravity 0.1
+static lightleft 0
+matrix 1 0 0 0 1 0 0 0 1
+origin 26 9.7 7.3
+static lightright 0
+matrix 1 0 0 0 1 0 0 0 1
+origin 26 -9.7 7.3
+makerigid
+EOF
